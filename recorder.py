@@ -40,8 +40,8 @@ try:
 except Exception:
     ZoneInfo = None
 
-CHANNEL_HANDLE = os.getenv("CHANNEL_HANDLE", "@Apka-aashu").strip()
-TARGET_CHANNEL_ID = os.getenv("TARGET_CHANNEL_ID", "UCGFi8l9sf5ab4hVJf7byBZg").strip()
+CHANNEL_HANDLE = os.getenv("CHANNEL_HANDLE", "@Rachitdhingra").strip()
+TARGET_CHANNEL_ID = os.getenv("TARGET_CHANNEL_ID", "UCuMoWV3vfGWQ397CNTTbg0g").strip()
 START_AT_IST = os.getenv("START_AT_IST", "").strip()
 HOURS = min(4.5, max(0.05, float(os.getenv("HOURS", "4.0"))))
 SHIFTS_LEFT = int(os.getenv("SHIFTS_LEFT", "0") or "0")

@@ -53,7 +53,7 @@ jobs:
               "gauravdev833844-gif/py-task-newrepo": "@HarshxTashu|UCIvzNxn_8Avi35lki-idQHg",
               "gauravdev833844-gif/yt-recorder": "@Realzeal.official|UCDxTnyiBjk-SI3ySaGjw9wA",
               "h29257583-svg/py-task-pbrepo": "@HEYB69IRL|UCIj7XNPnTHQ8WRQVcDyfEiA",
-              "johnwatson739418-lab/python-script-task": "@Apka-aashu|UCGFi8l9sf5ab4hVJf7byBZg",
+              "h29257583-svg/yt-rachitdhingra": "@Rachitdhingra|UCuMoWV3vfGWQ397CNTTbg0g",
               "johnwatson739418-lab/py-task-repoansh": "@anshhhlive_1|UC3NiNPo4kJYnYYhV_6ZnUGw",
               "h29257583-svg/script-py-reporish": "@rishnaaa4u|UCsda8YnhZU-aabHGLZcCIfw",
               "h29257583-svg/py-task-reposaksh": "@AgainSaksham8|UCm86JFblxlUVEwf0vOz39aA",
@@ -74,7 +74,7 @@ jobs:
           elif repo in REPO_MAP:
               targets = [REPO_MAP[repo]]
           else:
-              targets = ["@Apka-aashu|UCGFi8l9sf5ab4hVJf7byBZg"]
+              targets = ["@Rachitdhingra|UCuMoWV3vfGWQ397CNTTbg0g"]
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
               fh.write("targets=" + json.dumps(targets) + "\n")
           print(f"Resolved target for repo={repo!r}: {targets}")
